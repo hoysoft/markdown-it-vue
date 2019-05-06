@@ -89,7 +89,7 @@ export default {
       .use(MarkdownItLatex)
       .use(MarkdownItContainer, 'success')
       .use(MarkdownItContainer, 'info')
-      .use(MarkdownItContainer, 'warining')
+      .use(MarkdownItContainer, 'warning')
       .use(MarkdownItContainer, 'danger')
       .use(MarkdownItGithubToc, {
         tocFirstLevel: 2,
