@@ -73,7 +73,7 @@ export default {
     }
   },
   data () {
-    let md = new MarkdownIt()
+    let md = new MarkdownIt(html: true)
       .use(MarkdownItEmoji)
       .use(MarkdownItSubscript)
       .use(MarkdownItSuperscript)
